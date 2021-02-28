@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: BSGolangMS
+  description: Backstage Golang Microservice
+  annotations: 
+    github.com/project-slug: jshingler/bsgolangms
+    backstage.io/source-ref: "https://github.com/jshingler/bsgolangms"
+    backstage.io/techdocs-ref: url:https://github.com/jshingler/bsgolangms
+    backstage.io/github-actions-id: https://github.com/jshingler/bsgolangms
+spec:
+  type: service
+  lifecycle: experimental
+  owner: jshingler
